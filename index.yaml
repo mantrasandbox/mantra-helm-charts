@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  hello-world:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-11-04T13:39:21.205814281Z"
+    description: A Helm chart for Kubernetes
+    digest: 9dbf9ea04e246899518622add04b0c6fc190bc440b8ac2471d857f63310d310c
+    name: hello-world
+    type: application
+    urls:
+    - https://github.com/mantrasandbox/mantra-helm-charts/releases/download/hello-world-0.1.0/hello-world-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-11-04T13:39:21.205823629Z"
