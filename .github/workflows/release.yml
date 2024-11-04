@@ -32,7 +32,7 @@ jobs:
         # switch back to helm/chart-releaser-action if this contribution is ever merged
         uses: askcloudarchitech/chart-releaser-action@skip-packaging-option
         with:
-          skip_packaging: true
+          skip_packaging: false
         
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
